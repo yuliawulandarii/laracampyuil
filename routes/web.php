@@ -20,6 +20,10 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
+//socialite routes
+Route::get('sign-in-google', [UserController::class,'google'])->name('user.login.google');
+Route::get('auth/google/callback', [UserController::class,'handleProviderCallback'])->name('user.google.callback');
+
 Route::middleware(['auth'])->group(function (){
     //checkout routes
     Route::get('checkout/success', [CheckoutController::class,'success'])->name('checkout.success');
@@ -28,11 +32,10 @@ Route::middleware(['auth'])->group(function (){
 
     //user dashboard
     Route::get('dashboard', [HomeController::class,'dashboard'])->name('dashboard');
+    Route::get('dashboard/checkout/invoice/{checkout}', [CheckoutController::class,'invoice'])->name('user.checkout.invoice');
 });
 
-//socialite routes
-Route::get('sign-in-google', [UserController::class,'google'])->name('user.login.google');
-Route::get('auth/google/callback', [UserController::class,'handleProviderCallback'])->name('user.google.callback');
+
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
