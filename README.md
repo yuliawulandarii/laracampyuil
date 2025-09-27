@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/yuliawulandarii/laracampyuil" target="_blank">LARACAMPYUIL</a></p>
+# laracampyuil
 
 This project demonstrates Laravel 8 integrations with popular packages and services:
 
@@ -7,8 +7,6 @@ This project demonstrates Laravel 8 integrations with popular packages and servi
 - **Midtrans** – Indonesian payment gateway
   
 ---
-# laracampyuil
-
 ## Overview
 
 laracampyuil is a comprehensive developer tool designed to accelerate the development of scalable, secure, and maintainable Laravel applications. It integrates essential backend features with a flexible front-end setup, enabling developers to build modern web platforms efficiently.
@@ -29,7 +27,7 @@ This project aims to streamline Laravel development by providing a ready-to-use 
 - 🌐 **Real-Time Interaction**: Event broadcasting setup for live updates and notifications.
 - 🧩 **Modular UI Components**: Reusable Blade components for a cohesive and maintainable front-end architecture.
 
-*Note:* The original project name is **laracamp**, and **yuil** was added from my name to personalize this version.
+> **Note:** This project is based on the original **laracamp**, with "**yuil**" added from my name to personalize this version.
 
 ---
 
@@ -71,7 +69,45 @@ Build **laracampyuil** from the source and install dependencies:
     npm run dev
     ```
 
+## Using This Project
+
+1. **Create a new database** matching the name you will set in the `.env` file.  
+   (Note: The `.env` file is not included for security reasons. Please copy `.env.example` and update the database credentials accordingly.)
+
+2. **Copy the `.env.example` file to `.env`:**
+
+    ```bash
+    cp .env.example .env
+    ```
+
+3. **Edit the `.env` file** and update the following database settings according to your local environment:
+
+    ```
+    DB_DATABASE=your_database_name
+    DB_USERNAME=your_database_username
+    DB_PASSWORD=your_database_password
+    ```
+
+4. **Run the migrations** to create the database tables:
+
+    ```bash
+    php artisan migrate
+    ```
+
+5. (Optional) **Seed the database** with dummy data:
+
+    ```bash
+    php artisan db:seed
+    ```
+
+6. **Start the development server:**
+
+    ```bash
+    php artisan serve
+    ```
+
+7. Open your browser and visit [http://localhost:8000](http://localhost:8000) to see the app running.
+
 ---
 
 *Happy coding!* 🚀
-�
