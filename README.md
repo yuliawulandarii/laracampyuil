@@ -5,15 +5,7 @@ This project demonstrates Laravel 8 integrations with popular packages and servi
 - **Laravel Socialite** – OAuth authentication
 - **Laravel Breeze** – Lightweight auth starter kit
 - **Midtrans** – Indonesian payment gateway
-
-# 🚀 Laravel Integration Showcase
-
-This project demonstrates Laravel integrations with popular packages and services:
-
-- Laravel Socialite – OAuth authentication
-- Laravel Breeze – Lightweight auth starter kit
-- Midtrans – Indonesian payment gateway
-
+  
 ---
 
 ## 🔗 Integration Links
@@ -22,8 +14,6 @@ This project demonstrates Laravel integrations with popular packages and service
   <a href="https://laravel.com/docs/socialite" target="_blank">
     <img src="https://img.shields.io/badge/Laravel-Socialite-red?logo=larave
 
-
-# laracampyuil
 
 ## Overview
 
