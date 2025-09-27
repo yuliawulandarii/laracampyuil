@@ -11,7 +11,12 @@ This project demonstrates Laravel 8 integrations with popular packages and servi
 
 ## Overview
 
-**laracampyuil** is a comprehensive developer tool designed to accelerate the development of scalable, secure, and maintainable Laravel applications. It integrates essential backend features with a flexible front-end setup, enabling developers to build modern web platforms efficiently.
+laracampyuil is a comprehensive developer tool designed to accelerate the development of scalable, secure, and maintainable Laravel applications. It integrates essential backend features with a flexible front-end setup, enabling developers to build modern web platforms efficiently.
+
+## About This Project
+
+This repository is the result of a bootcamp class organized by **BuildWithAngga**.  
+The class focuses on practical Laravel development and building scalable web applications.
 
 ### Why laracampyuil?
 
@@ -23,6 +28,8 @@ This project aims to streamline Laravel development by providing a ready-to-use 
 - 📧 **Automated Communication**: Email notifications for registration, checkout, and payment updates to enhance user engagement.
 - 🌐 **Real-Time Interaction**: Event broadcasting setup for live updates and notifications.
 - 🧩 **Modular UI Components**: Reusable Blade components for a cohesive and maintainable front-end architecture.
+
+*Note:* The original project name is **laracamp**, and **yuil** was added from my name to personalize this version.
 
 ---
 
@@ -67,4 +74,4 @@ Build **laracampyuil** from the source and install dependencies:
 ---
 
 *Happy coding!* 🚀
-
+�
