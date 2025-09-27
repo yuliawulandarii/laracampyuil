@@ -7,13 +7,7 @@ This project demonstrates Laravel 8 integrations with popular packages and servi
 - **Midtrans** – Indonesian payment gateway
   
 ---
-
-## 🔗 Integration Links
-
-<p align="center">
-  <a href="https://laravel.com/docs/socialite" target="_blank">
-    <img src="https://img.shields.io/badge/Laravel-Socialite-red?logo=larave
-
+# laracampyuil
 
 ## Overview
 
