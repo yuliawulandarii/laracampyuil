@@ -1,64 +1,113 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# laracampyuil
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This project demonstrates Laravel 8 integrations with popular packages and services:
 
-## About Laravel
+- **Laravel Socialite** – OAuth authentication
+- **Laravel Breeze** – Lightweight auth starter kit
+- **Midtrans** – Indonesian payment gateway
+  
+---
+## Overview
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+laracampyuil is a comprehensive developer tool designed to accelerate the development of scalable, secure, and maintainable Laravel applications. It integrates essential backend features with a flexible front-end setup, enabling developers to build modern web platforms efficiently.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## About This Project
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This repository is the result of a bootcamp class organized by **BuildWithAngga**.  
+The class focuses on practical Laravel development and building scalable web applications.
 
-## Learning Laravel
+### Why laracampyuil?
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+This project aims to streamline Laravel development by providing a ready-to-use architecture that combines best practices with powerful integrations. The core features include:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- 🎨 **Colorful Palette**: Tailwind CSS configuration for consistent, optimized styling across your app.
+- 🔒 **Secure Foundations**: Built-in authentication, role management, email verification, and middleware for robust security.
+- 🚀 **Performance Boost**: Asset compilation with Webpack Mix and efficient dependency management for fast, reliable builds.
+- 📧 **Automated Communication**: Email notifications for registration, checkout, and payment updates to enhance user engagement.
+- 🌐 **Real-Time Interaction**: Event broadcasting setup for live updates and notifications.
+- 🧩 **Modular UI Components**: Reusable Blade components for a cohesive and maintainable front-end architecture.
 
-## Laravel Sponsors
+> **Note:** This project is based on the original **laracamp**, with "**yuil**" added from my name to personalize this version.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+---
 
-### Premium Partners
+## Getting Started
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+### Prerequisites
 
-## Contributing
+This project requires the following dependencies:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Programming Language**: PHP
+- **Package Managers**: Composer, NPM
 
-## Code of Conduct
+### Installation
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Build **laracampyuil** from the source and install dependencies:
 
-## Security Vulnerabilities
+1. **Clone the repository:**
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+    ```bash
+    git clone https://github.com/yuliawulandarii/laracampyuil
+    ```
 
-## License
+2. **Navigate to the project directory:**
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+    ```bash
+    cd laracampyuil
+    ```
+
+3. **Install the dependencies using Composer:**
+
+    ```bash
+    composer install
+    ```
+
+4. (Optional) Install frontend dependencies and build assets:
+
+    ```bash
+    npm install
+    npm run dev
+    ```
+
+## Using This Project
+
+1. **Create a new database** matching the name you will set in the `.env` file.  
+   (Note: The `.env` file is not included for security reasons. Please copy `.env.example` and update the database credentials accordingly.)
+
+2. **Copy the `.env.example` file to `.env`:**
+
+    ```bash
+    cp .env.example .env
+    ```
+
+3. **Edit the `.env` file** and update the following database settings according to your local environment:
+
+    ```
+    DB_DATABASE=your_database_name
+    DB_USERNAME=your_database_username
+    DB_PASSWORD=your_database_password
+    ```
+
+4. **Run the migrations** to create the database tables:
+
+    ```bash
+    php artisan migrate
+    ```
+
+5. (Optional) **Seed the database** with dummy data:
+
+    ```bash
+    php artisan db:seed
+    ```
+
+6. **Start the development server:**
+
+    ```bash
+    php artisan serve
+    ```
+
+7. Open your browser and visit [http://localhost:8000](http://localhost:8000) to see the app running.
+
+---
+
+*Happy coding!* 🚀
